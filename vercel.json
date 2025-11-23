@@ -1,0 +1,3 @@
+{
+  "rewrites": [{ "source": "/:path*", "destination": "/能耗计算平台.html" }]
+}
