@@ -1,3 +1,15 @@
 {
-  "rewrites": [{ "source": "/:path*", "destination": "/能耗计算平台.html" }]
+    "version": 2,
+    "builds": [
+        {
+            "src": "能耗计算平台.html",
+            "use": "@vercel/static"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/能耗计算平台.html"
+        }
+    ]
 }
